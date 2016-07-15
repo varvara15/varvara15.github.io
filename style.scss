@@ -52,6 +52,17 @@
     -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
+
+html {
+  font-size: 16px;
+}
+
+@media all and (min-width: 768px)  {
+  html {
+    font-size: 10px;
+  }
+}
+
 body {
     box-sizing: border-box;
     height: 100vh;
