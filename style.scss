@@ -197,7 +197,7 @@ body {
 }
 @keyframes slideLeft {
     0% {
-        transform: translateX(120%);
+        transform: translateX(100vw);
     }
     100% {
         transform: translateX(0%);
@@ -205,7 +205,7 @@ body {
 }
 @keyframes slideRight {
     0% {
-        transform: translateX(-120%);
+        transform: translateX(-100vw);
     }
     100% {
         transform: translateX(0%);
