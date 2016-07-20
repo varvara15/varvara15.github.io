@@ -56,13 +56,14 @@ body {
   box-sizing: border-box;
   margin: 0;
   height: 100%;
-  background: url('img/bg.png') repeat-y fixed;
+  background: url('img/bg.png') no-repeat fixed;
   background-size: cover;
   font-family: 'LatoWebLight';
 }
 
 .flex-container {
   display: flex;
+
   align-content: space-between;
   align-items: center;
   flex-flow: row wrap;
@@ -134,7 +135,7 @@ body {
   height: 32rem;
   border: 1.5rem solid #fff;
   border-radius: 50%;
-  background: #fff url('img/a.jpg') 0 0 no-repeat;
+  background: #fff url('img/my-foto.jpg') 0 0 no-repeat;
   background-size: 38rem;
   box-shadow: 0.4rem 0.4rem 0 rgba(32,53,138,0.5);
   animation: slideRight 0.5s ease 2.4s backwards;
@@ -278,7 +279,7 @@ body {
   padding-top: 10rem;
   width: 100%;
   height: 100%;
-  background: rgb(153,204,51);
+  background: #70cbc4;
   font-size: 1.8rem;
 }
 
@@ -307,10 +308,10 @@ body {
   padding: 0 2.5rem;
   border-bottom: 0.7rem solid rgba(0,0,0,0.2);
   color: rgba(0,0,0,0.2);
-  font-family: 'Noto Sans', sans-serif;
   text-transform: uppercase;
   text-shadow: 0.2rem 0.2rem 0.3rem rgba(255,255,255,0.1);
   font-size: 6rem;
+  font-family: 'Noto Sans', sans-serif;
 }
 .overlay h2::after {
   position: absolute;
@@ -320,7 +321,7 @@ body {
   height: 2rem;
   border-right: 0.7rem solid rgba(0,0,0,0.2);
   border-bottom: 0.7rem solid rgba(0,0,0,0.2);
-  background: rgb(153,204,51);
+  background: #70cbc4;
   content: '';
   transform: translate(-50%, -30%) rotate(45deg);
 }
@@ -351,7 +352,7 @@ body {
   height: 1rem;
   border: 0.5rem solid #fff;
   border-radius: 50%;
-  background: rgb(153,204,51);
+  background: #70cbc4;
   content: '';
   transform: translate(-50%, -50%);
 }
@@ -396,14 +397,8 @@ body {
     transform: translate(50%, -50%) rotate(45deg);
   }
 }
-.overlay:nth-child(2), .overlay:nth-child(2) .text-column::before, .overlay:nth-child(2) h2::after {
-  background: rgb(253,106,98);
-}
-.overlay:nth-child(3), .overlay:nth-child(3) h2::after {
-  background: rgb(96,215,169);
-}
-.overlay:nth-child(4), .overlay:nth-child(4) h2::after {
-  background: rgb(153,136,205);
+.overlay:nth-child(2), .overlay:nth-child(2) .text-column::before, .overlay:nth-child(2) h2::after, .overlay:nth-child(4), .overlay:nth-child(4) h2::after {
+  background: #33a4c2;
 }
 .overlay-slidedown {
   visibility: hidden;
@@ -423,8 +418,8 @@ body {
 .main-footer {
   position: absolute;
   bottom: 0;
-  width: 100%;
   margin-top: 10rem;
+  width: 100%;
   .inner {
     margin: 1.5rem auto 0;
     width: 80%;
@@ -493,28 +488,7 @@ body {
     }
   }
 }
-// @media all and (max-width: 320px) {
-//     html {
-//         font-size: 3.125;
-//     }
-// }
-// @media all and (max-width: 504px) {
-//   .main-footer {
-//     height: 19rem;
-//     .left-column, .right-column {
-//       width: 100%;
-//     }
-//     .right-column {
-//       .short-btn {
-//         order: 2;
-//       }
-//       .long-btn {
-//         order: 1;
-//         margin: 0;
-//       }
-//     }
-//   }
-// }
+
 
 @media all and (max-width: 589px) {
   html {
@@ -533,21 +507,7 @@ body {
     font-size: 7px;
   }
 }
-// .main-menu {
-//     height: 18rem;
-//     ul {
-//         width: 50%;
-//     }
-//     li {
-//         width: 40%;
-//     }
-//     li:nth-child(2n) {
-//         margin-right: 0;
-//     }
-// }
-// .second-screen {
-//     top: 25rem;
-// }
+
 @media all and (min-width:726px) and (max-width: 768px) {
   html {
     font-size: 8px;
@@ -557,19 +517,4 @@ body {
   html {
     font-size: 8.5px;
   }
-  // .main-menu {
-  //     height: 18rem;
-  //     ul {
-  //         width: 50%;
-  //     }
-  //     li {
-  //         width: 40%;
-  //     }
-  //     li:nth-child(2n) {
-  //         margin-right: 0;
-  //     }
-  // }
-  // .second-screen {
-  //     top: 25rem;
-  // }
 }
