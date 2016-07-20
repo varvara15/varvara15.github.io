@@ -1,4 +1,9 @@
 $(document).ready(function() {
+  $(".container").mCustomScrollbar();
+
+  function hideEl () {
+    $(".first-screen").css("display", "none");
+  }
   function showOverlay () {
     $(".menu-item").css("cursor", "pointer");
     $(".menu-item").each(function(i) {
@@ -12,5 +17,6 @@ $(document).ready(function() {
         });
     });
   }
+    setTimeout(hideEl, 6300);
     setTimeout(showOverlay, 5800);
 });

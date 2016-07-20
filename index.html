@@ -5,119 +5,145 @@
   <meta charset="UTF-8">
   <title>Varvara Zahorats` CV</title>
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="js/jquery.mCustomScrollbar.css">
   <link rel="stylesheet" href="style.min.css">
   <script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
 </head>
 
 <body>
+  <div class="first-screen flex-container">
+    <div class="animation-wrap animation-left">
+      <span class="animation-top">Здравствуйте,<br> меня зовут</span>
+      <span class="animation-mid">Варвара </span>
+      <span class="animation-bottom">Мне 22 года</span>
+    </div>
+    <div class="animation-wrap animation-right">
+      <span class="animation-mid"></span>
+    </div>
+  </div>
   <header>
-    <nav class="main-menu">
-      <ul class="flex-container">
-        <li>
-          <div class="menu-item">
-            <div class="menu-info">Учеба</div>
-            <div class="icon-graduation-cap"></div>
-          </div>
-        </li>
-        <li>
-          <div class="menu-item">
-            <div class="menu-info">Работа</div>
-            <div class="icon-briefcase"></div>
-          </div>
-        </li>
-        <li>
-          <div class="menu-item">
-            <div class="menu-info">Обо мне</div>
-            <div class="icon-female"></div>
-          </div>
-        </li>
-        <li>
-          <div class="menu-item">
-            <div class="menu-info">PDF-версия</div>
-            <div class="icon-file-pdf"></div>
-          </div>
-        </li>
-      </ul>
-    </nav>
+    <ul class="main-menu flex-container">
+      <li class="menu-item">
+        <div class="menu-info">Учёба</div>
+        <div class="icon-graduation-cap"></div>
+      </li>
+      <li class="menu-item">
+        <div class="menu-info">Работа</div>
+        <div class="icon-briefcase"></div>
+      </li>
+      <li class="menu-item">
+        <div class="menu-info">Обо мне</div>
+        <div class="icon-female"></div>
+      </li>
+      <li class="menu-item">
+        <div class="menu-info">PDF-версия</div>
+        <div class="icon-file-pdf"></div>
+      </li>
+    </ul>
   </header>
+  <div class="second-screen flex-container">
+    <h2>Хочу рассказать Вам немного о себе</h2>
+  </div>
   <main>
     <div class="overlay overlay-slidedown">
-      <div class="content">
-        <h2>Учеба</h2>
+      <div class="overlay-wrap">
+        <h2>Учёба</h2>
       </div>
-      <div class="content">
-        <div class="date-column">
-          Сентябрь
-          <br>2011</div>
-        <div class="text-column">Поступление в БГТУ на факультет "Издательского дела и полиграфии". Специальность "Редактор-технолог"</div>
-      </div>
-      <div class="content">
-        <div class="date-column">
-          Сентябрь-
-          <br>Декабрь
-          <br>2015
+      <div class="container">
+        <div class="overlay-wrap">
+          <div class="date-column">
+            Сентябрь 2011</div>
+          <div class="text-column">Поступление в БГТУ на факультет "Издательского дела и полиграфии". Специальность "Редактор-технолог"</div>
         </div>
-        <div class="text-column">Поступление в БГТУ на факультет "Издательского дела и полиграфии". Специальность "Редактор-технолог"</div>
+        <div class="overlay-wrap">
+          <div class="date-column">
+            Сентябрь&nbsp;&#8211; Декабрь 2015
+          </div>
+          <div class="text-column">Академический отпуск в БГТУ. Изучение литовского языка в Вильнюсском университете</div>
+        </div>
+        <div class="overlay-wrap">
+          <div class="date-column">
+            Сентябрь&nbsp;&#8211; Октябрь 2016
+          </div>
+          <div class="text-column">Восстановление и учёба в БГТУ</div>
+        </div>
+        <div class="overlay-wrap">
+          <div class="date-column">
+            Февраль 2016</div>
+          <div class="text-column">Защита диплома и выпуск из БГТУ</div>
+        </div>
       </div>
     </div>
     <div class="overlay overlay-slidedown">
-      <div class="content">
+      <div class="overlay-wrap">
         <h2>Работа</h2>
       </div>
-      <div class="content">
-        <div class="date-column">
-          Июль
-          <br>2014</div>
-        <div class="text-column">Прохождение практики в издательстве "Четыре четверти". Редактирование рукописи, верстка, разработка дизайна обложки будущей книги. Результат: выпуск сборника стихов</div>
-      </div>
-      <div class="content">
-        <div class="date-column">
-          Август
-          <br>2015</div>
-        <div class="text-column">Прохождение практики в издательстве "Пачатковая школа". Редактура, верстка, обработка графичексих изображений</div>
+      <div class="container">
+        <div class="overlay-wrap">
+          <div class="date-column">
+            Июль 2014</div>
+          <div class="text-column">Прохождение производственной практики в издательстве "Четыре четверти". Редактирование рукописи, вёрстка, разработка дизайна обложки будущей книги. Результат: выпуск сборника стихов</div>
+        </div>
+        <div class="overlay-wrap">
+          <div class="date-column">
+            Сентябрь&nbsp;&#8211; Декабрь 2014</div>
+          <div class="text-column">Подработка в издательстве "Пачатковая школа". Разработка дизайна вкладок журнала, вёрстка, редактура</div>
+        </div>
+        <div class="overlay-wrap">
+          <div class="date-column">
+            Август 2015</div>
+          <div class="text-column">Прохождение производственной практики в издательстве "Пачатковая школа". Редактура, вёрстка, обработка графического материала</div>
+        </div>
+        <div class="overlay-wrap">
+          <div class="date-column">
+            Март&nbsp;&#8211; Июль 2016</div>
+          <div class="text-column">Контент-менеджер в интернет-магазине "1905.ru". Поиск и добавление информации на сайт, редактирование карточек товаров, копирайтинг</div>
+        </div>
+        <div class="overlay-wrap">
+          <div class="date-column">
+            Август 2016</div>
+          <div class="text-column">Cтажер в Eurasian Creative Guild (я искренне в это верю)</div>
+        </div>
       </div>
     </div>
     <div class="overlay overlay-slidedown">
-      <div class="content">
+      <div class="overlay-wrap">
         <h2>Обо мне</h2>
       </div>
-      <p>
-        3333Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+      <div class="container">
+        <p>
+          Пойти учиться на редактора меня вдохновила не столько моя любовь к книгам и чтению, сколько серия романов о Гарри Поттере. Читая их, я не только мечтала в один прекрасный день получить письмо из Хогвартса, но и постоянно думала о тех людях, которым посчастливилось
+          окунуться в мир магии раньше остальных; которые читали ещё сырой материал, с ошибками и логическими нестыковками, и совместно с автором старались сделать его лучше; которые участвовали в создании шедевра. Мой практический опыт работы редактором
+          ещё слишком незначителен, но я уверена, что однажды мне тоже повезёт выпустить в свет издание, которое покорит миллионы читательских сердец.
+        </p>
+        <p>
+          Я достаточно активный человек: каждое утро стараюсь начинать с зарядки, люблю плавать, кататься на велосипеде, путешествовать и ходить в пешие походы, занималась в мим-театре"Буфф" и в университетском народном театре "Колокол", окончила музыкальную школу
+          по классу домра. Люблю общаться с людьми и заводить новые знакомства. Свободное время провожу за чтением и игрой в настольные игры (больше всего люблю стратегические, когда исход игры зависит не столько от случая и личного везения, сколько от
+          продуманности каждого твоего хода). Постоянно занимаюсь саморазвитием: раньше посещала различные очные курсы (по английскому языку, веб-разработке), в последнее время предпочитаю онлайн-курсы.
+        </p>
+      </div>
     </div>
     <div class="overlay overlay-slidedown">
-      <div class="content">
+      <div class="overlay-wrap">
         <h2>PDF-версия</h2>
       </div>
-      <div class="content">
-        <a class="open-link" href="Devid_Flenagan_-_Javascript_Podrobnoe_rukovods.pdf" target="_blank">Открыть PDF-версию резюме</a>
+      <div class="overlay-wrap">
+        <a class="open-link" href="https://www.icancv.ru/varvara_zag" target="_blank">Открыть PDF-версию резюме</a>
       </div>
     </div>
   </main>
-
-  <div class="sp-container flex-container">
-    <div class="sp-content flex-container">
-      <div class="sp-wrap sp-left">
-        <span class="sp-top">Здравствуйте,<br> меня зовут</span>
-        <span class="sp-mid">Варвара</span>
-        <span class="sp-bottom">Мне 22 года</span>
-      </div>
-      <div class="sp-wrap sp-right">
-        <span class="sp-mid"></span>
-      </div>
-    </div>
-    <div class="sp-full flex-container">
-      <h2>Хочу рассказать Вам немного о себе</h2>
-    </div>
-  </div>
   <footer class="main-footer">
     <div class="inner flex-container">
-      <a class="long-btn icon-at">www.varvara15@mail.ru</a>
-      <a class="short-btn icon-facebook" target="_blank"></a>
-      <a class="short-btn icon-vkontakte" href="https://new.vk.com/id20869653" target="_blank"></a>
-      <a class="long-btn icon-phone-squared">+37529-661-97-14</a>
+      <div class="left-column flex-container">
+        <a class="long-btn icon-at">www.varvara15@mail.ru</a>
+        <a class="short-btn icon-facebook" href="https://www.facebook.com/varvara.zag" target="_blank"></a>
+      </div>
+      <div class="right-column flex-container">
+        <a class="short-btn icon-vkontakte" href="https://new.vk.com/id20869653" target="_blank"></a>
+        <a class="long-btn icon-phone-squared">+37529-661-97-14</a>
+      </div>
     </div>
   </footer>
 </body>
